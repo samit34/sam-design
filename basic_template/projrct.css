@@ -1,0 +1,730 @@
+  
+
+  body{
+     font-family: 'Nunito';
+  }
+
+.one-icons::before{
+     color: white;
+     
+     font-size: 18px;
+}
+
+.col-two-icon{
+     margin-top: 3px;
+}
+.col-two-text{
+     font-size: 14px;
+     font-weight: 700;
+}
+
+.free{
+     padding: 0px 35px;
+}
+
+/* navbar css start from here */
+
+nav{
+     position: sticky !important;
+      top: 34px !important;
+}
+.nav-com{
+     display: flex;
+     justify-content: end;
+
+
+}
+.nav-button{
+     height: 40px;
+     width: 140px;
+     border-radius: 50px;
+      background-color: #388da8;
+      margin-right: 10px;
+       border: none;   
+       font-weight: 500;
+       letter-spacing: 1px;
+       display: inline-block;
+       
+       border-radius: 50px;
+       transition: 0.5s;
+       box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+}
+.nav-item .nav-link{
+     font-weight: 700;
+     
+}
+
+.nav-item:hover .nav-link{
+     color: #4392ae !important;
+}
+
+/* navbar css end here */
+
+/* section three start from here */
+
+
+.inner-three{
+     width: 100%;
+     height: 900px;
+     background-position: center center;
+     background-size: cover;
+
+     
+     background-image: url("hero-bg-light.webp");
+   
+     z-index: 1;
+}
+
+.con-three h1{
+     margin: 0;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 56px;
+     z-index: 2;
+}
+
+.con-three p{
+     color: #3e5055;
+         margin: 5px 0 30px 0;
+         font-size: 20px;
+         font-weight: 400;
+         z-index: 2;
+}
+.con-three i::before{
+     color: #388da8;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+     z-index: 2;
+}
+
+.section-three-button{
+     height: 40px;
+     width: 140px;
+     border-radius: 50px;
+      background-color: #388da8;
+      margin-right: 10px;
+       border: none;   
+       font-weight: 500;
+       letter-spacing: 1px;
+       display: inline-block;
+       
+       border-radius: 50px;
+       transition: 0.5s;
+       box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+}
+/* section three end here */
+
+/* section four css start from here */
+.inner-four-heading{
+     font-size: 18px;
+     font-weight: 500;
+     margin: 0;
+}
+.inner-four-discription{
+     font-size: 14px;
+}
+.inner-four i{
+     background-color:#d1e5ec;
+     font-size: 32px;
+     z-index: 2;
+     position: relative;
+     padding: 20px;
+}
+
+.inner-four .icon-box:hover i:before {
+     color: white;
+}
+.inner-four .icon-box:hover i {
+     background-color: #388da8;
+}
+ 
+.inner-four i::before{
+     color: #5594aa;
+}
+
+.inner-four i::before:hover{
+     color: #fff;
+}
+.four-row{
+     padding: 40px;
+}
+/* section five css start from here */
+.sec-five-icon{
+     margin-top: 5px;
+}
+.sec-five-icon::before{
+     color: #388da8;
+}
+
+
+/* section six img */
+
+.six-img{
+     filter: grayscale(200);
+     opacity: 0.5;
+     
+}
+
+.six-img:hover{
+     filter: brightness();
+     opacity: 1;
+
+}
+/* section six css finish here */
+/* section seven start fron here */
+.seven-tittle h2{
+     color: #3e5055;
+     font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.seven-tittle h2::after{
+     content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5594aa;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.tablinks:hover{
+     background-color: #f7fbfc;
+}
+.tablinks.active{
+     background-color: #f7fbfc;
+}
+
+/* section seven css finish */
+
+
+/* section eight css start from here */
+
+.eight-content h3{
+     color: #3e5055;
+     font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.nine-content h3{
+     color: #3e5055;
+     font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 15px;
+}    
+.eight-icon{
+     color: #388da8;
+     margin-top: px;
+}
+
+/* section ten css start from here */
+.ten-tittle h2{
+     color:#3e5055;
+     font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.ten-tittle h2::after{
+     content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5594aa;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
+.row-ten-two h3{
+     color: #3e5055;
+     
+         font-weight: 500;
+         font-size: 22px;
+         transition: 0.3s;
+}
+.icon-ten{
+     color: #0dcaf0;
+    border: 1px solid #0dcaf0;
+    background: rgba(13, 202, 240, 0.1);
+    padding:0px 8px;
+    font-size: 45px;
+    height: 65px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+}
+
+.icon-ten-two{
+     color: #0dcaf0;
+    border: 1px solid #fd7e15;
+    background: #fff2e7;
+    padding:0px 8px;
+    font-size: 45px;
+    height: 65px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+} 
+.icon-ten-two::before{
+     color:#fd7e15 ;
+}
+
+.icon-ten-three{
+     color: #20c997;
+    border: 1px solid #20c997;
+    background: #e8f9f4;
+    padding:0px 8px;
+    font-size: 45px;
+    height: 65px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+} 
+
+.icon-ten-four{
+     color: #df1529;
+    border: 1px solid #df1529 ;
+    background: #fce7e5;
+    padding:0px 8px;
+    font-size: 45px;
+    height: 65px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+} 
+
+.icon-ten-five{
+     color: #b186f8;
+    border: 1px solid #b186f8 ;
+    background: #efe7fe;
+    padding:0px 8px;
+    font-size: 45px;
+    height: 65px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+} 
+
+.icon-ten-six{
+     color: #f891c5;
+    border: 1px solid #f891c5 ;
+    background: #fee9f3;
+    padding:0px 8px;
+    font-size: 45px;
+    height: 65px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+} 
+.col-ten-one:hover{
+     transition: 0.3s;
+     box-shadow: 0px 0px 10px -5px #75b4c7;
+     transform: scale(1.01) ;
+}
+
+/* section ten css end here */
+
+.col-eleven-one h3{
+     color: #3e5055;
+     
+     font-size: 28px;
+     font-weight: 700;
+     margin-bottom: 20px;
+         transition: 0.3s;
+}
+
+.col-eleven-two h4{
+     font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.col-eleven-two p{
+     line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.icon-eleven{
+     margin-top: 5px;
+}
+
+.icon-eleven::before{
+     color: #388da8;
+}
+/* sctio eleven end here */
+
+
+/* section tweleve start from here */
+
+
+.tweleve-tittle h2{
+     color:#3e5055;
+     font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.tweleve-tittle h2::after{
+     content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5594aa;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.card-one h3{
+     color: #5d6c71;
+     font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.card-one p{
+     color: #6f7478;
+}
+.card-one h4{
+     color: #388da8;
+     
+         font-size: 40px;
+         font-weight: 600;
+}
+.card-one h4 span{
+     color: #a6abad;
+         font-size: 18px;
+         font-weight: 500;
+}
+
+ .free-trial-p {
+     color:#656b6f;
+ }
+.free-trial:hover ,.free-trial:hover .free-trial-p {
+background-color: #388da8;
+color: white;
+}
+
+.eleven-icon::before{
+     color: #099754;
+     margin-right: 5px;
+}
+
+.eleven-icon-cross::before{
+     margin-right: 5px;
+}
+.cross-text{
+     text-decoration:line-through;
+}
+
+/* section tweleve end here */
+
+
+/* section thirteen start from here */
+
+.thirteen-tittle h2{
+     color:#3e5055;
+     font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.thirteen-tittle h2::after{
+     content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5594aa;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.box-thirteen-one {
+  overflow: hidden;
+  height: 66px;
+  transition:  0.5s !important; 
+   
+}
+.none-box-thirteen {
+     display: none;
+}
+.active-box-thirteen{
+     display: block;
+}
+.active-box {
+     transition:  0.5s !important; 
+     display: block;
+     background-color: #f9fbfc;
+     height: 130px;
+}
+.active-btn{
+     transition: 0.5s;
+     transform: rotate(92deg);
+
+}
+.color-text{
+     color: #6593a8;
+}
+.button-thirteen i{
+     
+     font-size: 12px;
+}
+/* - thirteen end here */
+
+/* section forteen start from here */
+.section-forteen{
+     background: #f8fbfc;
+     padding: 40px 15px;
+}
+.forteen-tittle h2{
+     color:#3e5055;
+     font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.forteen-tittle h2::after{
+     content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5594aa;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.testimonial{
+     background: #fff;
+     box-shadow: 0px 0 20px rgba(0, 0, 0, 0.1);     
+     padding: 50px;
+     margin: 20px;
+}
+/* testimonial slider */
+.swiper-slide-next{
+     opacity:1;
+     transform: scale(1.2);
+}
+swiper-slide{
+     opacity:0.2;
+     text-align: center;
+}
+.star i:before{
+     color: #ffc107;
+}
+.swiper-pagination-bullet{
+     background: red !important;
+}
+/* section forteen end here */
+
+
+/*  section fiveteen start from here */
+
+.fifteen-tittle h2{
+     color:#3e5055;
+     font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+     
+}
+
+.fifteen-tittle h2::after{
+     content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5594aa;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.adress{
+  color: #3e5055;
+     font-size: 1.5rem;
+     font-weight: 600;
+     margin: 10px 0
+}
+
+.sixteen-icon{
+         
+     border: 2px dotted #4692ab;
+          padding: 16px;
+          border-radius: 50%;
+}
+
+.sixteen-icon::before{
+         
+    color: #4692ab;
+    font-size: 25px;
+
+}
+
+.sixteen-form{
+ height: 46px;
+}
+/* sction sixteen here */
+
+/* section eighten here */
+
+.col-one h2 {
+     color:#3e5055;
+     font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+
+.col-two h4 {
+     color:#3e5055;
+     font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.last-input{
+     border-radius: 50px;
+}
+
+.last-input:focus{
+  border: none;
+  outline: none;
+}
+
+.last-div{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+
+
+/* animation */
+
+.box {
+     
+     opacity: 0;
+     transform: translateY(50px);
+     transition: opacity 1s ease, transform 1s ease;
+ }
+
+ .box.visible {
+     opacity: 1;
+     transform: translateY(0);
+ }
+
+ @media screen and (max-width:768px) {
+     .free{
+          padding: 2px;
+     }
+ }
+
+@media screen and (max-width:500px) {
+               .icon-ten{
+                    padding: 1rem;
+    font-size: 17px;
+    height: 52px;
+               }
+
+               .con-three h1{
+                    margin: 0;
+                    font-size: 34px;
+                    font-weight: 700;
+                    line-height: 56px;
+                    z-index: 2;
+               }
+               
+               .con-three p{
+                    color: #3e5055;
+                        margin: 5px 0 30px 0;
+                        font-size: 20px;
+                        font-weight: 400;
+                        z-index: 2;
+               }
+               .con-three i::before{
+                    color: #388da8;
+                   font-size: 32px;
+                   transition: 0.3s;
+                   line-height: 0;
+                    z-index: 2;
+               }
+               .span-three{
+                    font-size: 15px;
+               }
+               
+               .box-thirteen-one {
+                    overflow: hidden;
+                    height: 140px;
+                    /* transition: height 0.5s; */
+                  }
+               
+                 
+               
+               .active-box  {
+                    transition:  0.5s;
+                    display: block;
+                    background-color: #f9fbfc;
+                    height: 300px;
+               }
+              
+}
+
+
+
+@media screen and (max-width:1100px) {
+
+     
+     .nav-button{
+          width: 105px;
+          margin-right: 0px;
+     }
+     
+}
+
+@media screen and (max-width:1024px) {
+
+     .swiper-slide-next{
+          opacity:1;
+          transform: scale(1.2);
+     }
+     swiper-slide{
+          opacity:1;
+          text-align: center;
+     }
+     .nav-button{
+          width: 105px;
+          margin-right: 0px;
+     }
+     
+}
